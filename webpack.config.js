@@ -21,8 +21,8 @@ module.exports = {
         }
       },
       {
-          test: /\.tpl.html$/,
-          use: 'es6-template-string'
+        test: /\.tpl.html$/,
+        use: 'es6-template-string'
       },
       {
         test: /\.html$/,
@@ -77,10 +77,10 @@ module.exports = {
       filename: 'index.html',
       chunks: ['js'],
       minify: {
-          html5: true,
-          collapseWhitespace: true,
-          caseSensitive: true,
-          removeComments: true
+        html5: true,
+        collapseWhitespace: true,
+        caseSensitive: true,
+        removeComments: true
       }
     })
   ]
